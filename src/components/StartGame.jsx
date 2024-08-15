@@ -6,7 +6,7 @@ const StartGame = () => {
       <div>
         <img src="/images/dice.png" alt="" />{" "}
       </div>
-      <div>
+      <div className="content">
         <h1>Dice Game</h1>
         <Button>Play Game</Button>
       </div>
@@ -22,6 +22,13 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   align-items: center;
+
+  .content {
+    h1 {
+      font-size: 96px;
+      white-space: nowrap;
+    }
+  }
 `;
 
 const Button = styled.button`
@@ -39,4 +46,8 @@ const Button = styled.button`
   cursor: pointer;
   min-width: 220px;
   border: none;
+
+  &:hover {
+    background-color: #383838;
+  }
 `;
