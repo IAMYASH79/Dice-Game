@@ -1,7 +1,9 @@
 import React from "react";
 
 const GamePlay = () => {
-  return <div>GamePlay</div>;
+  return <main>
+    
+  </main>;
 };
 
 export default GamePlay;
